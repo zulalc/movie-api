@@ -13,7 +13,7 @@ function App() {
 
   const [movies, setMovies] = useState<Movies[]>([]);
 
-  const apiKey = "fac56e6595d44b8385da6e520abce1ea";
+  const apiKey = "";
   const popular = "https://api.themoviedb.org/3/movie/top_rated"; 
 
   //title: string poster_path: string id: number 
